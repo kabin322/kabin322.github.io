@@ -1,18 +1,44 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!-- jQuery読み込み -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <title>Kyobin Page</title>
+  <!-- BootstrapのCSS読み込み -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- jQuery読み込み -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- BootstrapのJS読み込み -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="~">Home</a></li>
+        <li><a href="~" class="selected">About</a></li>
+        <li><a href="~">Works</a></li>
+      </ul>
+    </nav>
+    <div id="logo">
+      <img src="profile.jpg" alt="" />
+      <h1>許　敏</h1>
+    </div>
+  </header>
+  <div class="container">
+    <section class="content">
+      <h2>About</h2>
+      <h3>自己紹介</h3>
+      <p>HTML/CSS/Javascript等からWeb系の勉強を始めました。RubyやSQL等にも興味があります。幅広く知識を取り入れていきます。</p>
+      <p><a href="~">Works</a>から制作物を見れます。</p>
+      <h3>リンク</h3>
+      <p>GitHubサイトへはこちら<br><a href="https://github.com/kabin322">→https://github.com/kabin322</a></p>
+    </section>
+    <footer>
+      <p>&copy; 2016 Kyo Bin.</p>
+    </footer>
+  </div>
+</body>
 </html>
